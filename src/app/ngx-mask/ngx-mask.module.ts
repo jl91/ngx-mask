@@ -39,5 +39,5 @@ export class NgxMaskModule {
  */
 export function _configFactory
 (initConfig: optionsConfig, configValue: optionsConfig | (() => optionsConfig)): Function | optionsConfig {
-  return (typeof configValue === 'function') ? configValue() : { ...initConfig, ...configValue };
+  return (typeof configValue === 'function') ? configValue() : {...initConfig, ...configValue};
 }

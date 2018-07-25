@@ -7,9 +7,10 @@ import { MaskApplierService } from './mask-applier.service';
 })
 export class MaskPipe implements PipeTransform {
 
-  public constructor(private _maskService: MaskApplierService) { }
+  public constructor(private _maskService: MaskApplierService) {
+  }
 
-  public transform(value: string|number, mask: string): string {
+  public transform(value: string | number, mask: string): string {
     if (!value) {
       return '';
     }
