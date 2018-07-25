@@ -141,11 +141,13 @@ export class MaskDirective implements ControlValueAccessor {
         const el: HTMLInputElement = (e.target as HTMLInputElement);
 
 
-        if ((el.selectionStart === el.selectionEnd)
-            && el.selectionStart
-            > this._maskService.prefix.length
-            // tslint:disable-next-line
-            && (e as any).keyCode
+        if (
+          (el.selectionStart === el.selectionEnd) &&
+            el.selectionStart &&
+            el.selectionStart
+            > this._maskService.prefix.length &&
+          // tslint:disable-next-line
+            (e as any).keyCode
             !== 38) {
             return;
         }
