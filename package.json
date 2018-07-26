@@ -1,6 +1,6 @@
 {
   "name": "ngx-mask-fixed",
-  "version": "2.0.4",
+  "version": "3.0.0",
   "description": "awesome ngx mask",
   "license": "MIT",
   "angular-cli": {},
@@ -14,7 +14,8 @@
     "angular2",
     "angular2-mask",
     "ng2mask",
-    "jsdaddy"
+    "jsdaddy",
+    "jl91"
   ],
   "scripts": {
     "ng": "ng",
