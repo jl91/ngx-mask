@@ -1,6 +1,6 @@
 {
   "name": "ngx-mask-fixed",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "awesome ngx mask",
   "license": "MIT",
   "angular-cli": {},
@@ -9,6 +9,7 @@
     "ngx-mask",
     "ng2",
     "angular-mask",
+    "angular-mask-fixed",
     "mask",
     "angular",
     "angular2",
@@ -29,22 +30,13 @@
     "url": "https://github.com/jl91/ngx-mask.git"
   },
   "dependencies": {
-    "@angular/animations": "4.4.6",
     "@angular/common": "4.4.6",
     "@angular/compiler": "4.4.6",
     "@angular/core": "4.4.6",
     "@angular/forms": "4.4.6",
-    "@angular/http": "4.4.6",
     "@angular/platform-browser": "4.4.6",
     "@angular/platform-browser-dynamic": "4.4.6",
-    "@angular/router": "4.4.6",
-    "calc-js": "1.1.4",
-    "class-transformer": "0.1.6",
-    "class-transformer-validator": "0.2.0",
-    "class-validator": "0.7.1",
     "core-js": "2.5.1",
-    "moment": "2.19.4",
-    "moment-timezone": "0.5.17",
     "rxjs": "5.5.5",
     "zone.js": "0.8.18"
   },

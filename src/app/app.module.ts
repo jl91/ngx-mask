@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { NgxMaskModule } from './ngx-mask.module';
+import { NgxMaskModule } from './ngx-mask';
 
 
 @NgModule({

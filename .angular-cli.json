@@ -20,7 +20,7 @@
       "prefix": "app",
       "scripts": [
       ]
-    },
+    }
   ],
   "lint": [
     {
