@@ -1,3 +1,4 @@
+Fixed version for ngx-mask to work with angular <= 4.0.0
 <a href="https://jsdaddy.github.io/ngx-mask">
   <h1 align="center">ngx-mask</h1>
 </a>
